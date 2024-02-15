@@ -146,6 +146,10 @@ etc/clusto*.conf
 !.config/awesome/*/*/*/*
 !.config/picom
 !.config/picom/*
+!.config/rofi
+!.config/rofi/*
+!.config/rofi/*/*
+!.config/rofi/*/*/*
 # Keep ignoring this, it comes from the OS.
 .config/systemd/user/gpg-agent.service
 # And don't see swaps as usual (sigh)
