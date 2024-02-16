@@ -164,6 +164,7 @@ awful.keyboard.append_global_keybindings({
 				local tag = client.focus.screen.tags[index]
 				if tag then
 					client.focus:move_to_tag(tag)
+					tag:view_only()
 				end
 			end
 		end,
