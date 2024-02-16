@@ -8,3 +8,4 @@ run() {
 
 run "picom"
 run "feh" --bg-scale ~/Downloads/wallhaven-ymdk3l.png
+run "xrandr" --output DP-0 --mode 3840x2160 --rate 144 --dpi 184
