@@ -116,6 +116,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias lg="lazygit"
+alias cps="gh copilot suggest"
 alias ls='eza -a --color=always --group-directories-first'
 alias la='eza -al --color=always --group-directories-first'
 alias ll='eza -l --color=always --group-directories-first'
