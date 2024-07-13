@@ -134,10 +134,19 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.puro/bin" # Added by Puro
 export PATH="$PATH:$HOME/.puro/shared/pub_cache/bin" # Added by Puro
 export PATH="$PATH:$HOME/.puro/envs/default/flutter/bin" # Added by Puro
+
 export PURO_ROOT="/home/arin/.puro" # Added by Puro
 export PUB_CACHE="/home/arin/.puro/shared/pub_cache" # Added by Puro
+# export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
-export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
+export FVM_PATH="/home/arin/fvm"
+export FVM_DEFAULT_PATH="/home/arin/fvm/default/bin"
+export PATH="$PATH:$FVM_PATH:$FVM_DEFAULT_PATH"
+export PATH="$PATH:/mnt/c/Users/arina/scoop/shims" # Add win32yank
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
